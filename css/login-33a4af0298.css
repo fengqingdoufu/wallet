@@ -1,0 +1,178 @@
+.icon-app {
+  width: 2.266667rem;
+  height: 2.266667rem;
+  background: url("../images/icon_app_1.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  margin: 1.266667rem auto 0.96rem;
+}
+
+.user-info {
+  width: 8.72rem;
+  margin: 0 auto;
+}
+
+.user-info li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.746667rem 0 0.413333rem 0;
+  border-bottom: 0.013333rem solid #e3e3e3;
+  font-size: 0.426667rem;
+  color: #222;
+}
+
+.user-info li span {
+  display: block;
+  width: 2.16rem;
+}
+
+.user-info li input {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 0.426667rem;
+}
+
+.user-info li i {
+  display: block;
+}
+
+.user-info li .icon-arrow-bottom {
+  width: 0.386667rem;
+  height: 0.213333rem;
+  background: url("../images/icon_arrow_bottom1.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  margin-right: 0.066667rem;
+}
+
+.user-info li .icon-look-pwd {
+  width: 0.546667rem;
+  height: 0.306667rem;
+  background: url("../images/icon_look_pwd.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.account-btn {
+  width: 9.386667rem;
+  height: 1.413333rem;
+  margin: 1.173333rem auto 0;
+  border-radius: 0.133333rem;
+  overflow: hidden;
+}
+
+.account-btn button {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: #1fae78;
+  font-size: 0.426667rem;
+}
+
+.account-play {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 9.386667rem;
+  margin: 0.453333rem auto 0;
+}
+
+.account-play a {
+  font-size: 0.426667rem;
+  color: #3892B9;
+}
+
+.r-info {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0.64rem;
+}
+
+.r-info li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.333333rem;
+  padding-top: 0.266667rem;
+  border-bottom: 0.013333rem solid #e3e3e3;
+  font-size: 0.426667rem;
+}
+
+.r-info li span {
+  width: 2.986667rem;
+}
+
+.r-info li input {
+  color: #333;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 0.426667rem;
+}
+
+.r-info li button {
+  width: 2.373333rem;
+  height: 1.066667rem;
+  background: #1fae78;
+  border-radius: 0.133333rem;
+  font-size: 0.373333rem;
+  color: #fff;
+  margin-right: 0.08rem;
+}
+
+.r-real {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.373333rem;
+  text-align: center;
+  color: #222;
+  margin-top: 0.426667rem;
+}
+
+.r-real i {
+  display: inline-block;
+  width: 0.533333rem;
+  height: 0.533333rem;
+  background: url("../images/icon_register_s.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  margin-right: 0.16rem;
+}
+
+.r-real span {
+  color: #666;
+}
+
+.r-hint {
+  position: absolute;
+  width: 100%;
+  bottom: 0.506667rem;
+  font-size: 0.373333rem;
+  color: #222;
+  text-align: center;
+}
+
+.r-hint span {
+  color: #1fae78;
+}

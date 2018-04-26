@@ -1,0 +1,52 @@
+.help .title {
+  height: 2.053333rem;
+  border-bottom: 0.24rem solid #f8f8f8;
+  font-size: 0.426667rem;
+  color: #222;
+  text-align: center;
+}
+
+.help .title h4 {
+  line-height: 100%;
+  padding-top: 0.52rem;
+  font-weight: normal;
+}
+
+.help .title p {
+  line-height: 100%;
+  margin-top: 0.266667rem;
+}
+
+.c-list {
+  line-height: 100%;
+  font-size: 0.373333rem;
+}
+
+.c-list .list-title {
+  text-align: center;
+  padding: 0.666667rem 0;
+  color: #333;
+  font-weight: normal;
+}
+
+.c-list .list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c-list .list-item ul {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 50%;
+  padding-left: 0.693333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #666;
+}
+
+.c-list .list-item ul li {
+  height: 0.693333rem;
+  line-height: 0.693333rem;
+}

@@ -1,0 +1,152 @@
+.bank-card-wrap {
+  border-bottom: 0.24rem solid #f8f8f8;
+}
+
+.tab-content {
+  width: 9.36rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0.533333rem auto 0.266667rem;
+  -webkit-box-shadow: 0 0 0.2rem #f2f2f2;
+  box-shadow: 0 0 0.2rem #f2f2f2;
+}
+
+.tab-content .tab-content-l-item {
+  height: 3.373333rem;
+  border-radius: 0.133333rem;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 0.2rem #f2f2f2;
+  box-shadow: 0 0 0.2rem #f2f2f2;
+}
+
+.tab-content .tab-content-l-item .top-msg {
+  height: 1.493333rem;
+  background: #023473;
+  padding: 0 0.306667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #f8f8f8;
+}
+
+.tab-content .tab-content-l-item .top-msg .top-msg-list i {
+  display: block;
+  width: 0.866667rem;
+  height: 0.866667rem;
+  border-radius: 50%;
+}
+
+.tab-content .tab-content-l-item .top-msg .top-msg-list .icon-credit-pufa {
+  background: url("../images/icon-bank/icon_credit_pufa.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.tab-content .tab-content-l-item .top-msg .top-msg-list span {
+  display: block;
+  height: 0.506667rem;
+  border-right: 0.013333rem solid #f2f2f2;
+  font-size: 0.373333rem;
+  padding: 0 0.146667rem;
+}
+
+.tab-content .tab-content-l-item .top-msg .top-msg-list b {
+  font-weight: normal;
+  padding: 0 0.266667rem 0 0.146667rem;
+}
+
+.tab-content .tab-content-l-item .bottom-msg {
+  height: 1.88rem;
+  background: #fff;
+}
+
+.tab-content .tab-content-l-item .bottom-msg li {
+  -webkit-box-flex: 0.013333rem;
+  -ms-flex: 0.013333rem;
+  flex: 0.013333rem;
+  height: 1.12rem;
+  border-right: 0.013333rem solid #e3e3e3;
+  font-size: 0.373333rem;
+  text-align: center;
+}
+
+.tab-content .tab-content-l-item .bottom-msg li h2 {
+  color: #222;
+  font-weight: bold;
+  font-size: 0.373333rem;
+  padding: 0.066667rem 0;
+}
+
+.tab-content .tab-content-l-item .bottom-msg li p {
+  color: #333;
+}
+
+.tab-content .tab-content-l-item .bottom-msg .now-refund .icon_now_refund {
+  display: block;
+  width: 0.666667rem;
+  height: 0.48rem;
+  background: url("../images/icon_now_refund.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  margin: 0 0.213333rem 0 0.266667rem;
+}
+
+.tab-content .tab-content-l-item .bottom-msg .now-refund span {
+  font-size: 0.373333rem;
+  color: #dc0000;
+  font-weight: bold;
+}
+
+.tab-content .tab-content-l-item .bottom-msg .no-border-right {
+  border-right: 0;
+}
+
+.bank-card-btn ul {
+  padding-top: 0.733333rem;
+}
+
+.bank-card-btn ul li {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.bank-card-btn ul li span {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background: url("../images/btn_bank_cash.jpg") no-repeat;
+  -o-background-size: 4.133333rem auto;
+  background-size: 4.133333rem auto;
+  margin: 0 auto 0.293333rem;
+}
+
+.bank-card-btn ul li .card-btn1 {
+  background-position: 0 0;
+}
+
+.bank-card-btn ul li .card-btn2 {
+  background-position: 0 -2.133333rem;
+}
+
+.bank-card-btn ul li .card-btn3 {
+  background-position: 0 -4.266667rem;
+}
+
+.bank-card-btn ul li .card-btn4 {
+  background-position: -2.133333rem 0;
+}
+
+.bank-card-btn ul li .card-btn5 {
+  background-position: -2.133333rem -2.133333rem;
+}
+
+.bank-card-btn ul li .card-btn6 {
+  background-position: -2.133333rem -4.266667rem;
+}
+
+.bank-card-btn ul li p {
+  font-size: 0.413333rem;
+  color: #666;
+}

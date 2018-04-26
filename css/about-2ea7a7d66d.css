@@ -1,0 +1,17 @@
+.title {
+  height: 2.053333rem;
+  line-height: 2.053333rem;
+  text-align: center;
+  font-size: 0.426667rem;
+  color: #222;
+  border-bottom: 0.24rem solid #f8f8f8;
+}
+
+.content {
+  line-height: 0.693333rem;
+  padding: 0.666667rem 0.4rem 0 0.32rem;
+  font-size: 0.373333rem;
+  color: #666;
+  text-indent: 2em;
+  text-align: justify;
+}

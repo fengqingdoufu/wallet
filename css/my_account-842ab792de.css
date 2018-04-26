@@ -1,0 +1,110 @@
+.no-trade .no-trade-bg {
+  width: 5.946667rem;
+  height: 4.56rem;
+  background: url("../images/bg_no_trade.jpg") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  margin: 1.92rem auto 0.906667rem;
+}
+
+.no-trade p {
+  font-size: 0.4rem;
+  color: #666;
+  text-align: center;
+}
+
+.trade-money-msg {
+  width: 100%;
+  height: 1.6rem;
+  background: #ececec;
+}
+
+.trade-money-msg ul {
+  width: 100%;
+}
+
+.trade-money-msg li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 1.226667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  color: #666;
+  text-align: center;
+}
+
+.trade-money-msg li h2 {
+  font-size: 0.346667rem;
+  font-weight: normal;
+  width: 100%;
+}
+
+.trade-money-msg li p {
+  font-size: 0.506667rem;
+  width: 100%;
+}
+
+.trade-money-msg li:first-child {
+  border-right: 0.013333rem solid #999;
+}
+
+.account {
+  height: 1.066667rem;
+  background: #fff;
+  border-bottom: 0.013333rem solid #e3e3e3;
+  font-size: 0.373333rem;
+  color: #333;
+}
+
+.account .title {
+  line-height: 1.066667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0.333333rem;
+}
+
+.account .title h4 {
+  font-weight: normal;
+}
+
+.account .icon-account {
+  font-size: 0.373333rem;
+  color: #1fae78;
+}
+
+.account .content {
+  padding: 0 0.28rem;
+}
+
+.account .content li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.413333rem 0 0.36rem;
+  border-bottom: 0.013333rem solid #e3e3e3;
+  font-size: 0.373333rem;
+  color: #666;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.account .content li span {
+  margin-right: 0.32rem;
+}
+
+.account .content li h4 {
+  padding: 0;
+  font-weight: normal;
+  margin-bottom: 0.16rem;
+}
+
+.account .content li p {
+  font-size: 0.506667rem;
+  color: #222;
+}

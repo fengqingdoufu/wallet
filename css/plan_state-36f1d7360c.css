@@ -1,0 +1,199 @@
+body,
+html {
+  line-height: 1;
+  background: #f8f8f8;
+}
+
+.plan-info {
+  width: 9.2rem;
+  margin: 0.32rem auto 0.426667rem;
+  border-radius: 0.133333rem;
+  overflow: hidden;
+}
+
+.plan-info .plan-t-msg {
+  /* Safari */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #003b77;
+  height: 2.213333rem;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.plan-info .plan-t-msg .t-msg-l {
+  /* Safari */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 0.32rem;
+}
+
+.plan-info .plan-t-msg .t-msg-l img {
+  width: 1.293333rem;
+  height: 1.293333rem;
+  border-radius: 50%;
+  margin-right: 0.266667rem;
+}
+
+.plan-info .plan-t-msg .t-msg-l strong {
+  font-weight: normal;
+}
+
+.plan-info .plan-t-msg .t-msg-l p {
+  line-height: 1;
+  font-size: 0.373333rem;
+  color: #fff;
+}
+
+.plan-info .plan-t-msg .t-msg-l .card-num {
+  margin-right: 0.04rem;
+}
+
+.plan-info .plan-t-msg .t-msg-l .title {
+  padding-bottom: 0.4rem;
+}
+
+.plan-info .plan-t-msg .t-msg-r {
+  font-size: 0.373333rem;
+  color: #fff;
+  text-align: center;
+  margin-right: 0.24rem;
+}
+
+.plan-info .plan-t-msg .t-msg-r button {
+  width: 2.16rem;
+  height: 0.746667rem;
+  background: #1FAE78;
+  border-radius: 0.333333rem;
+  font-size: 0.373333rem;
+  color: #fff;
+  margin-top: 0.32rem;
+}
+
+.plan-info .plan-b-msg {
+  height: 1.866667rem;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 0.373333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.plan-info .plan-b-msg li {
+  height: 1.12rem;
+  font-size: 0.373333rem;
+  text-align: center;
+}
+
+.plan-info .plan-b-msg li h2 {
+  color: #222;
+  font-weight: normal;
+  font-size: 0.346667rem;
+  line-height: 1;
+  margin-bottom: 0.32rem;
+}
+
+.plan-info .plan-b-msg li p {
+  color: #333;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.plan-info .plan-b-msg .center-height {
+  width: 0.026667rem;
+  height: 0.906667rem;
+  background: #e3e3e3;
+}
+
+.plan-list-item {
+  padding: 0 0.32rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.plan-list-item li {
+  /* Safari */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 0.013333rem solid #ececec;
+  padding: 0.453333rem 0;
+}
+
+.plan-list-item li .item-l {
+  margin-left: 0.186667rem;
+}
+
+.plan-list-item li .item-l .success {
+  background: #1FAE78;
+}
+
+.plan-list-item li .item-l .fail {
+  background: #ff443f;
+}
+
+.plan-list-item li .item-l .waiting {
+  background: #ff9900;
+}
+
+.plan-list-item li .item-l .content {
+  font-size: 0.373333rem;
+  color: #333;
+}
+
+.plan-list-item li .item-l .content strong {
+  display: inline-block;
+  font-size: 0.346667rem;
+  width: 1.226667rem;
+  height: 0.56rem;
+  border-radius: 0.133333rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.56rem;
+  margin-left: 0.266667rem;
+}
+
+.plan-list-item li .item-l p {
+  margin-top: 0.32rem;
+  font-size: 0.32rem;
+  color: #999;
+}
+
+.plan-list-item li .item-r {
+  margin-right: 0.053333rem;
+  text-align: center;
+}
+
+.plan-list-item li .item-r h2,
+.plan-list-item li .item-r strong {
+  font-weight: normal;
+}
+
+.plan-list-item li .item-r h2 {
+  margin-bottom: 0.32rem;
+}
+
+.plan-list-item li .item-r p {
+  font-size: 0.32rem;
+  color: #999;
+}

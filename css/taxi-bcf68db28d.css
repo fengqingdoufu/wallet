@@ -1,0 +1,137 @@
+body {
+  background: #1FAE78;
+}
+
+.taxi-wrap {
+  padding: 0.24rem 0.426667rem 0;
+}
+
+.taxi-wrap .code {
+  text-align: center;
+  border-radius: 0.133333rem;
+  background: #fff;
+}
+
+.taxi-wrap .code .title {
+  line-height: 1;
+  font-size: 0.613333rem;
+  color: #1FAE78;
+  padding: 0.533333rem 0;
+}
+
+.taxi-wrap .code .refund-code {
+  width: 3.973333rem;
+  height: 3.973333rem;
+  border-radius: 0.066667rem;
+  margin-bottom: 0.533333rem;
+}
+
+.taxi-wrap .code .btn {
+  padding-bottom: 0.266667rem;
+}
+
+.taxi-wrap .code .btn li {
+  width: 7.413333rem;
+  height: 1.12rem;
+  border-radius: 0.133333rem;
+  overflow: hidden;
+  margin: 0 auto 0.266667rem;
+  font-size: 0.4rem;
+  line-height: 1.12rem;
+  text-align: left;
+}
+
+.taxi-wrap .code .btn li a {
+  width: 7.413333rem;
+  height: 1.12rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.taxi-wrap .code .btn li i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.666667rem;
+  height: 0.666667rem;
+  background: url("../images/icon_taxi.png") no-repeat;
+  -o-background-size: 7.933333rem auto;
+  background-size: 7.933333rem auto;
+  margin: 0 0.186667rem 0 2.133333rem;
+}
+
+.taxi-wrap .code .btn li .icon_encourage {
+  background-position: 0 0;
+}
+
+.taxi-wrap .code .btn li .icon_share {
+  background-position: -0.8rem 0;
+}
+
+.taxi-wrap .code .btn li .icon_store {
+  background-position: -1.6rem 0;
+}
+
+.taxi-wrap .code .btn li span {
+  color: #ffff;
+}
+
+.taxi-wrap .code .btn .car-license p {
+  width: 7.413333rem;
+  height: 1.12rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0.013333rem solid #222;
+  border-radius: 0.133333rem;
+  text-align: center;
+}
+
+.taxi-wrap .code .btn .store {
+  margin: 0 auto;
+}
+
+.taxi-wrap .pay-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 0.293333rem;
+}
+
+.taxi-wrap .pay-icon li {
+  font-size: 0.32rem;
+  color: #fff;
+  text-align: center;
+}
+
+.taxi-wrap .pay-icon li i {
+  display: block;
+  width: 1.48rem;
+  height: 1.453333rem;
+  background: url("../images/icon_taxi.png") no-repeat;
+  -o-background-size: 7.933333rem auto;
+  background-size: 7.933333rem auto;
+  margin-bottom: 0.133333rem;
+}
+
+.taxi-wrap .pay-icon li .icon_wx {
+  background-position: 0 -0.8rem;
+}
+
+.taxi-wrap .pay-icon li .icon_zfb {
+  background-position: -1.613333rem -0.8rem;
+}
+
+.taxi-wrap .pay-icon li .icon_qq {
+  background-position: -3.226667rem -0.8rem;
+}
+
+.taxi-wrap .pay-icon li .icon_jd {
+  background-position: -4.84rem -0.8rem;
+}
+
+.taxi-wrap .pay-icon li .icon_yl {
+  background-position: -6.453333rem -0.8rem;
+}

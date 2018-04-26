@@ -1,0 +1,259 @@
+.key-money input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.506667rem 0 0.506667rem 0.453333rem;
+  font-size: 0.4rem;
+  color: #999;
+  border-bottom: 0.24rem solid #f8f8f8;
+}
+
+.pay-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 1.226667rem;
+  border-bottom: 0.013333rem solid #e3e3e3;
+  text-align: center;
+}
+
+.pay-title i {
+  display: inline-block;
+  width: 0.546667rem;
+  height: 0.546667rem;
+  background: url("../images/icon_recharge_money.png") no-repeat;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  margin-right: 0.213333rem;
+}
+
+.pay-title span {
+  font-size: 0.426667rem;
+  color: #222;
+}
+
+.pay-mode {
+  padding: 0.453333rem 0;
+}
+
+.pay-mode li {
+  position: relative;
+  height: 0.506667rem;
+  border-right: 0.026667rem solid #e3e3e3;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 0.4rem;
+  color: #222;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.pay-mode li i {
+  display: none;
+  width: 0.266667rem;
+  height: 0.16rem;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  left: 50%;
+  background: url("../images/icon_arrow_bottom.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.pay-mode .active {
+  color: #1fae78;
+}
+
+.pay-mode .no-border-right {
+  border-right: none;
+}
+
+.tab-content {
+  display: none;
+  padding: 0.64rem 0.293333rem 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.tab-content .tab-content-item {
+  position: relative;
+}
+
+.tab-content .icon_recharge_select {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url("../images/icon_recharge_select.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.tab-content-l {
+  display: block;
+}
+
+.tab-content-l .tab-content-l-item {
+  height: 3.373333rem;
+  border-radius: 0.133333rem;
+  overflow: hidden;
+  margin-bottom: 0.533333rem;
+  -webkit-box-shadow: 0 0 0.2rem #f2f2f2;
+  box-shadow: 0 0 0.2rem #f2f2f2;
+}
+
+.tab-content-l .tab-content-l-item .top-msg {
+  height: 1.493333rem;
+  background: #023473;
+  padding: 0 0.306667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #f8f8f8;
+}
+
+.tab-content-l .tab-content-l-item .top-msg .top-msg-list i {
+  display: block;
+  width: 0.866667rem;
+  height: 0.866667rem;
+  border-radius: 50%;
+}
+
+.tab-content-l .tab-content-l-item .top-msg .top-msg-list .icon-credit-pufa {
+  background: url("../images/icon-bank/icon_credit_pufa.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.tab-content-l .tab-content-l-item .top-msg .top-msg-list span {
+  display: block;
+  height: 0.506667rem;
+  border-right: 0.013333rem solid #f2f2f2;
+  font-size: 0.373333rem;
+  padding: 0 0.146667rem;
+}
+
+.tab-content-l .tab-content-l-item .top-msg .top-msg-list b {
+  font-weight: normal;
+  padding: 0 0.266667rem 0 0.146667rem;
+}
+
+.tab-content-l .tab-content-l-item .bottom-msg {
+  height: 1.88rem;
+  background: #fff;
+}
+
+.tab-content-l .tab-content-l-item .bottom-msg li {
+  -webkit-box-flex: 0.013333rem;
+  -ms-flex: 0.013333rem;
+  flex: 0.013333rem;
+  height: 1.12rem;
+  border-right: 0.013333rem solid #e3e3e3;
+  font-size: 0.373333rem;
+  text-align: center;
+}
+
+.tab-content-l .tab-content-l-item .bottom-msg li h2 {
+  color: #222;
+  font-weight: bold;
+  font-size: 0.373333rem;
+  padding: 0.066667rem 0;
+}
+
+.tab-content-l .tab-content-l-item .bottom-msg li p {
+  color: #333;
+}
+
+.tab-content-l .tab-content-l-item .bottom-msg .now-refund .icon_now_refund {
+  display: block;
+  width: 0.666667rem;
+  height: 0.48rem;
+  background: url("../images/icon_now_refund.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  margin: 0 0.213333rem 0 0.266667rem;
+}
+
+.tab-content-l .tab-content-l-item .bottom-msg .now-refund span {
+  font-size: 0.373333rem;
+  color: #dc0000;
+  font-weight: bold;
+}
+
+.tab-content-l .tab-content-l-item .bottom-msg .no-border-right {
+  border-right: 0;
+}
+
+.tab-content-r .tab-content-r-item {
+  position: relative;
+  height: 2.946667rem;
+  background: #df5a5a;
+  border-radius: 0.133333rem;
+  color: #fff;
+  margin-bottom: 0.533333rem;
+  -webkit-box-shadow: 0 0 0.133333rem #f6f6f6;
+  box-shadow: 0 0 0.133333rem #f6f6f6;
+}
+
+.tab-content-r .tab-content-r-item .bank-list-msg {
+  padding: 0.32rem 0 0 0.32rem;
+  vertical-align: middle;
+  font-size: 0;
+}
+
+.tab-content-r .tab-content-r-item .bank-list-msg .icon-cash-zhaoshang {
+  display: inline-block;
+  width: 0.853333rem;
+  height: 0.853333rem;
+  background: url("../images/icon-bank/icon_cash_zhaoshang.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 0.133333rem;
+}
+
+.tab-content-r .tab-content-r-item .bank-list-msg .bank-msg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tab-content-r .tab-content-r-item .bank-list-msg .bank-msg .bank-name {
+  font-size: 0.453333rem;
+}
+
+.tab-content-r .tab-content-r-item .bank-list-msg .bank-msg .bank-type {
+  font-size: 0.373333rem;
+}
+
+.tab-content-r .tab-content-r-item .bank-card-num {
+  position: absolute;
+  line-height: 0.8rem;
+  bottom: 0.24rem;
+  right: 0.28rem;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.recharge-btn button {
+  display: block;
+  width: 9.36rem;
+  height: 1.093333rem;
+  background: #1fae78;
+  color: #fff;
+  font-size: 0.426667rem;
+  text-align: center;
+  margin: 0.666667rem auto;
+  border-radius: 0.133333rem;
+}

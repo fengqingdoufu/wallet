@@ -1,0 +1,80 @@
+.modify-title {
+  position: relative;
+  height: 1.866667rem;
+  border-bottom: 0.24rem solid #f8f8f8;
+}
+
+.modify-title .bg {
+  position: absolute;
+  width: 3.68rem;
+  height: 0.906667rem;
+  background: url("../images/bg_union_pay.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.card-info {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0.32rem;
+}
+
+.card-info li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.333333rem;
+  font-size: 0.426667rem;
+  border-bottom: 0.013333rem solid #e3e3e3;
+}
+
+.card-info li span {
+  display: block;
+  width: 2.346667rem;
+  padding-left: 0.16rem;
+  color: #222;
+}
+
+.card-info li div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #666;
+}
+
+.card-info li div input {
+  font-size: 0.426667rem;
+}
+
+.card-info li div .msg-code {
+  width: 2.133333rem;
+}
+
+.card-info li div .msg-code-btn {
+  width: 2.373333rem;
+  height: 1.066667rem;
+  background: #1fae78;
+  color: #fff;
+  font-size: 0.373333rem;
+  outline: none;
+  border-radius: 0.133333rem;
+}
+
+.modify-ensure-btn {
+  display: block;
+  width: 9.36rem;
+  background: #1fae78;
+  height: 1.093333rem;
+  font-size: 0.426667rem;
+  color: #fff;
+  border-radius: 0.133333rem;
+  margin: 0.933333rem auto 0;
+}

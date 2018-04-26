@@ -1,0 +1,93 @@
+.safe-list {
+  border-top: 0.24rem solid #f8f8f8;
+  padding: 0 0.32rem;
+}
+
+.safe-list li {
+  height: 1.16rem;
+  border-bottom: 0.013333rem solid #e3e3e3;
+}
+
+.safe-list a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.16rem;
+  font-size: 0.426667rem;
+  color: #222;
+}
+
+.safe-list a .icon_arrow_right {
+  display: block;
+  width: 0.2rem;
+  height: 0.36rem;
+  background: url("../images/icon_arrow_right.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  margin-right: 0.053333rem;
+}
+
+.change-pwd {
+  border-top: 0.24rem solid #f8f8f8;
+}
+
+.change-pwd li {
+  width: 100%;
+  border-bottom: 0.013333rem solid #e3e3e3;
+}
+
+.change-pwd li input {
+  width: 100%;
+  font-size: 0.373333rem;
+  color: #999;
+  padding: 0.4rem 0 0.4rem 0.453333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ensure-btn {
+  margin-top: 4.346667rem;
+}
+
+.ensure-btn button {
+  display: block;
+  width: 9.36rem;
+  height: 1.093333rem;
+  color: #fff;
+  font-size: 0.426667rem;
+  border-radius: 0.133333rem;
+  margin: 0 auto;
+  background: #1fae78;
+}
+
+.code {
+  height: 1.146667rem;
+  background: #fff;
+  padding: 0 0.4rem 0 0.453333rem;
+  margin: 0.24rem 0 0.026667rem 0;
+}
+
+.code input {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 0.373333rem;
+  color: #999;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.code .code-btn {
+  width: 2.88rem;
+  height: 1.066667rem;
+  color: #fff;
+  background: #1fae78;
+  border-radius: 0.133333rem;
+  font-size: 0.373333rem;
+}

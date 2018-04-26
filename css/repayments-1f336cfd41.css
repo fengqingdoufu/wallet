@@ -1,0 +1,182 @@
+body {
+  background: #f8f8f8;
+}
+
+.tab-content {
+  width: 9.36rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0.533333rem auto 0.266667rem;
+  -webkit-box-shadow: 0 0 0.2rem #f2f2f2;
+  box-shadow: 0 0 0.2rem #f2f2f2;
+}
+
+.tab-content .tab-content-l-item {
+  height: 3.373333rem;
+  border-radius: 0.133333rem;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 0.2rem #f2f2f2;
+  box-shadow: 0 0 0.2rem #f2f2f2;
+}
+
+.tab-content .tab-content-l-item .top-msg {
+  height: 1.493333rem;
+  background: #023473;
+  padding: 0 0.306667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #f8f8f8;
+}
+
+.tab-content .tab-content-l-item .top-msg .top-msg-list i {
+  display: block;
+  width: 0.866667rem;
+  height: 0.866667rem;
+  border-radius: 50%;
+}
+
+.tab-content .tab-content-l-item .top-msg .top-msg-list .icon-credit-pufa {
+  background: url("../images/icon-bank/icon_credit_pufa.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.tab-content .tab-content-l-item .top-msg .top-msg-list span {
+  display: block;
+  height: 0.506667rem;
+  border-right: 0.013333rem solid #f2f2f2;
+  font-size: 0.373333rem;
+  padding: 0 0.146667rem;
+}
+
+.tab-content .tab-content-l-item .top-msg .top-msg-list b {
+  font-weight: normal;
+  padding: 0 0.266667rem 0 0.146667rem;
+}
+
+.tab-content .tab-content-l-item .bottom-msg {
+  height: 1.88rem;
+  background: #fff;
+}
+
+.tab-content .tab-content-l-item .bottom-msg li {
+  -webkit-box-flex: 0.013333rem;
+  -ms-flex: 0.013333rem;
+  flex: 0.013333rem;
+  height: 1.12rem;
+  border-right: 0.013333rem solid #e3e3e3;
+  font-size: 0.373333rem;
+  text-align: center;
+}
+
+.tab-content .tab-content-l-item .bottom-msg li h2 {
+  color: #222;
+  font-weight: bold;
+  font-size: 0.373333rem;
+  padding: 0.066667rem 0;
+}
+
+.tab-content .tab-content-l-item .bottom-msg li p {
+  color: #333;
+}
+
+.tab-content .tab-content-l-item .bottom-msg .now-refund .icon_now_refund {
+  display: block;
+  width: 0.666667rem;
+  height: 0.48rem;
+  background: url("../images/icon_now_refund.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  margin: 0 0.213333rem 0 0.266667rem;
+}
+
+.tab-content .tab-content-l-item .bottom-msg .now-refund span {
+  font-size: 0.373333rem;
+  color: #dc0000;
+  font-weight: bold;
+}
+
+.tab-content .tab-content-l-item .bottom-msg .no-border-right {
+  border-right: 0;
+}
+
+.repay-msg {
+  width: 9.36rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0.266667rem 0.266667rem 2.08rem;
+  background: #fff;
+}
+
+.repay-msg .money-num {
+  width: 8.8rem;
+  border: 0.013333rem solid #d3d3d3;
+  font-size: 0.373333rem;
+  padding: 0.373333rem 0 0.346667rem 0.453333rem;
+  border-radius: 0.133333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 0.36rem;
+}
+
+.repay-msg .compute-money {
+  margin-bottom: 0.413333rem;
+}
+
+.repay-msg .compute-money .promise-money {
+  width: 5.6rem;
+  height: 1.08rem;
+  font-size: 0.373333rem;
+  background: #ececec;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.346667rem 0 0.36rem 0.44rem;
+  border-radius: 0.133333rem;
+}
+
+.repay-msg .compute-money .promise-btn {
+  width: 2.88rem;
+  height: 1.08rem;
+  outline: none;
+  font-size: 0.373333rem;
+  color: #fff;
+  background: #1fae78;
+  border-radius: 0.133333rem;
+}
+
+.repay-msg .time {
+  padding-bottom: 0.4rem;
+  border-bottom: 0.013333rem solid #e3e3e3;
+}
+
+.repay-msg .time input {
+  width: 4.16rem;
+  height: 1.093333rem;
+  font-size: 0.373333rem;
+  color: #666;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0.013333rem solid #d3d3d3;
+  border-radius: 0.133333rem;
+  text-align: center;
+}
+
+.repay-msg .tip {
+  margin-top: 0.373333rem;
+  text-align: center;
+  font-size: 0.373333rem;
+  color: #666;
+}
+
+.repay-msg .take-plan-btn {
+  width: 8.8rem;
+  height: 1.08rem;
+  background: #1fae78;
+  font-size: 0.426667rem;
+  color: #fff;
+  text-align: center;
+  margin: 1.36rem auto 0;
+  border-radius: 0.133333rem;
+}

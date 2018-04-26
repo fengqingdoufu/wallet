@@ -1,0 +1,48 @@
+.policy {
+  width: 9.36rem;
+  margin: 0.4rem auto 0;
+}
+
+.policy li {
+  position: relative;
+  width: 100%;
+  border-radius: 0.133333rem;
+  margin-bottom: 0.266667rem;
+  overflow: hidden;
+  color: #fff;
+}
+
+.policy li .p-t {
+  height: 1.733333rem;
+  background: #009966;
+}
+
+.policy li .p-t p {
+  padding: 0.533333rem 0 0 0.36rem;
+  font-size: 0.48rem;
+}
+
+.policy li .p-b {
+  height: 0.88rem;
+  background: #1fae78;
+}
+
+.policy li .p-b p {
+  font-size: 0.373333rem;
+  margin-left: 0.36rem;
+  line-height: 0.88rem;
+}
+
+.policy li .icon-policy {
+  position: absolute;
+  width: 1.386667rem;
+  height: 1.586667rem;
+  background: url("../images/icon_policy.png") no-repeat;
+  -o-background-size: contain;
+  background-size: contain;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  top: 50%;
+  right: 0.506667rem;
+}

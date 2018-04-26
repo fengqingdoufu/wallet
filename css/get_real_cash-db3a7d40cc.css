@@ -1,0 +1,73 @@
+.trade-money-msg {
+  width: 100%;
+  height: 1.6rem;
+  background: #ececec;
+}
+
+.trade-money-msg ul {
+  width: 100%;
+}
+
+.trade-money-msg li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 1.226667rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  color: #666;
+  text-align: center;
+}
+
+.trade-money-msg li h2 {
+  font-size: 0.346667rem;
+  font-weight: normal;
+  width: 100%;
+}
+
+.trade-money-msg li p {
+  font-size: 0.506667rem;
+  width: 100%;
+  color: #1fae78;
+  font-weight: bold;
+}
+
+.trade-money-msg li:first-child {
+  border-right: 0.013333rem solid #999;
+}
+
+.get_cash_info {
+  margin-top: 0.666667rem;
+}
+
+.get_cash_info input {
+  display: block;
+  width: 8.826667rem;
+  padding: 0.373333rem 0 0.373333rem 0.453333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto 0.36rem;
+  background: #ececec;
+  border-radius: 0.133333rem;
+  color: #666;
+}
+
+.get_cash_btn {
+  padding-top: 1.333333rem;
+}
+
+.get_cash_btn button {
+  display: block;
+  width: 9.36rem;
+  height: 1.093333rem;
+  background: #1fae78;
+  border-radius: 0.133333rem;
+  color: #fff;
+  font-size: 0.426667rem;
+  margin: 0 auto;
+}
